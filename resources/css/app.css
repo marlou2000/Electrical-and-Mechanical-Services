@@ -1,3 +1,71 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.companyName{
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+}
+/* NavBar Components */
+.buttons{
+margin-right: -11.5px;
+color: black;
+font-weight: 500;
+width: 100px;
+height:50px;
+border-radius: 5px;
+background-color: transparent;
+}
+.buttons:hover{
+background-color: white;
+color:orange;
+}
+/* Initial transparent background */
+.bg-transparent {
+    background-color: transparent;
+  }
+  
+  /* Background when scrolled */
+  .bg-orange-500 {
+    background-color: #ff9900; /* Change this color to your desired orange */
+  }
+/* End of NavBar Components */
+/* upperbody Components */
+.body{
+    display: inline-block;
+    width: 100%;
+}
+.box1{
+    display: grid;
+    width: 50%;
+    padding-top: 140px;
+    flex-direction: row;
+    padding-bottom: 50px;
+}
+.row{
+    padding-left:20px;
+    height: auto;
+}
+
+.box2{
+width: 50%;
+overflow: hidden;
+}
+.circle{
+    margin-top: -88px;
+    position: relative;
+    border-radius: 590px 0px 300px 600px;
+    height:705px;
+    width:625px;
+    float: right;
+    overflow: hidden;
+    padding-top: 100px;
+    background-color: orange;
+}
+.circle .marlou{
+    height: auto;
+    width: 400px;
+    margin-top: 160px;
+    margin-left: 100px;
+}
