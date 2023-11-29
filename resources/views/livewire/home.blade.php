@@ -89,13 +89,11 @@ id="navbar"
   <div class="h-screen bg-white flex grid-cols-2">
     <div class="box1 ">
         <div class="row">
-          <h1 data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000" class="text-5xl font-medium">We specialize in UI/UX, Web Development, Digital Marketing.</h1>
-        </div>
-        <div class="row">
+          <h1 data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000" class="text-5xl font-medium mb-5">We specialize in UI/UX, Web Development, Digital Marketing.</h1>
           <p data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000" class="text-base	w-[80%]	h-[40px] text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fringilla magna mauris. Nulla fermentum viverra sem eu rhoncus consequat varius nisi quis, posuere magna.</p>
         </div>
-        <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" class="row flex">
-            <div class="grid-cols-2 flex items-center">
+        <div data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000" class="row flex">
+            <div class="grid-cols-2 flex items-end">
               <div>
                   <button class="w-[200px] h-[50px] bg-red-500 rounded-[50px] bg-orange-500 text-white font-medium">Get Started Now</button>
               </div>
@@ -112,13 +110,60 @@ id="navbar"
       </div>
     </div>
   </div>
-
-  <div class="h-screen	bg-white">
+<!--1st cut-->
+  <div class="bg-white firstCut">
+    <div class="firstCutbox" data-aos="fade-down" data-aos-delay="100" data-aos-duration="1000" data-aos-once="true">
+        <div class="firstCutcircle"><img src="{{asset('images/earth.png')}}"></div>
+          <div class="firstCuttext">
+            <h4>Marlou bakla</h4>
+            <p class="text-gray-500 text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fringilla magna mauris.</p>
+          </div>
+    </div>
+    <div class="firstCutbox" data-aos="fade-down" data-aos-delay="300" data-aos-duration="1000" data-aos-once="true">
+        <div class="firstCutcircle"><img src="{{asset('images/earth.png')}}"></div>
+        <div class="firstCuttext">
+            <h4>Marlou bakla</h4>
+            <p class="text-gray-500 text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fringilla magna mauris.</p>
+        </div>
+    </div>
+    <div class="firstCutbox" data-aos="fade-down" data-aos-delay="500" data-aos-duration="1000" data-aos-once="true">
+        <div class="firstCutcircle"><img src="{{asset('images/earth.png')}}"></div>
+        <div class="firstCuttext">
+            <h4>Marlou bakla</h4>
+            <p class="text-gray-500 text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fringilla magna mauris.</p>
+        </div>
+    </div> 
   </div>
-
-  <div class="h-screen	bg-orange-500">
+<!--2nd cut-->
+  <div class="h-screen">
+      <div class="secondCut">
+        <div class="secondCutbox">
+          <div class="secondCutContainer">
+            <div class="secontCutItem">
+              <div class="secontCutItemRow">
+                <img class="img" src="{{asset('images/mokey1.jpg')}}">
+              </div>
+              <div class="secontCutItemRow">
+                <img class="img" src="{{asset('images/monke.jpg')}}">
+              </div>  
+            </div>
+            <div class="secontCutItem">
+              <div>
+                <img class="img" src="{{asset('images/chix.png')}}">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="secondCutbox">
+          <div>
+            <p class="text-2xl text-blue-500 font-medium mb-10">Why Choose Us</p>
+            <p class="text-5xl font-semibold mb-10">We Make Our customers happy by giving Best services.</p>
+            <p class="text-gray-500 mb-10">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum. </p>
+          </div>
+        </div>
+      </div>
   </div>
-
+<!--3rd cut-->
   <div class="h-screen	bg-pink-500">
   </div>
 
