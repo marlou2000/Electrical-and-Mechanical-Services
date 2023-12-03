@@ -158,7 +158,14 @@ id="navbar"
           <div>
             <p class="text-2xl text-blue-500 font-medium mb-10">Why Choose Us</p>
             <p class="text-5xl font-semibold mb-10">We Make Our customers happy by giving Best services.</p>
-            <p class="text-gray-500 mb-10">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum. </p>
+            <p class="text-gray-500 mb-10 text-[18.5px]">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum. </p>
+            
+              <div class="pulse">
+              <div class="pulseIcon">
+                <img class="pulseImage" src="{{asset('images/playButton.png')}}">
+              </div>
+                <p class="text-[20px] font-semibold ml-5">SEE HOW WE WORK</p>
+              </div>
           </div>
         </div>
       </div>
