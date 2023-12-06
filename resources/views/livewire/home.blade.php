@@ -86,16 +86,17 @@ id="navbar"
 <!--Start of body-->
 <div class="body">
 
-  <div class="h-screen bg-white flex grid-cols-2">
-    <div class="box1 ">
+  <div class="h-screen bg-white flex">
+  <div class="box">
+    <div class="box1">
         <div class="row">
           <h1 data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000" class="text-5xl font-medium mb-5">We specialize in UI/UX, Web Development, Digital Marketing.</h1>
           <p data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000" class="text-base	w-[80%]	h-[40px] text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fringilla magna mauris. Nulla fermentum viverra sem eu rhoncus consequat varius nisi quis, posuere magna.</p>
         </div>
         <div data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000" class="row flex">
-            <div class="grid-cols-2 flex items-end">
+            <div class="flex mt-10">
               <div>
-                  <button class="w-[200px] h-[50px] bg-red-500 rounded-[50px] bg-orange-500 text-white font-medium">Get Started Now</button>
+                  <button class="w-[200px] h-[50px] bg-red-500 rounded-[50px] bg-orange-500 text-white font-medium costumBtn">Get Started Now</button>
               </div>
               <div class="pl-[50px]">
                   <p class="font-medium">Call us (0123) 456 – 789</p>
@@ -104,7 +105,8 @@ id="navbar"
             </div>
         </div>
     </div>
-    <div class="box2">
+  </div>
+    <div class="box">
       <div class="circle">
         <img class="marlou" src="{{ asset('images/marlou.png') }}">
       </div>
@@ -135,10 +137,10 @@ id="navbar"
     </div> 
   </div>
 <!--2nd cut-->
-  <div class="h-screen">
+  <div>
       <div class="secondCut">
         <div class="secondCutbox">
-          <div class="secondCutContainer">
+          <div class="secondCutContainer" data-aos="fade-right" data-aos-delay="500" data-aos-duration="1200" data-aos-once="true">
             <div class="secontCutItem">
               <div class="secontCutItemRow">
                 <img class="img" src="{{asset('images/mokey1.jpg')}}">
@@ -154,8 +156,8 @@ id="navbar"
             </div>
           </div>
         </div>
-        <div class="secondCutbox">
-          <div>
+        <div class="secondCutbox pl-10">
+          <div data-aos="fade-left" data-aos-delay="500" data-aos-duration="1200" data-aos-once="true">
             <p class="text-2xl text-blue-500 font-medium mb-10">Why Choose Us</p>
             <p class="text-5xl font-semibold mb-10">We Make Our customers happy by giving Best services.</p>
             <p class="text-gray-500 mb-10 text-[18.5px]">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum. </p>

@@ -36,30 +36,29 @@ color:orange;
 .body{
     display: inline-block;
     width: 100%;
+    overflow-x: hidden;
 }
 .box1{
     display: grid;
-    width: 50%;
     padding-top: 200px;
     flex-direction: row;
     padding-bottom: 20px;
+    height: 100%;
 }
 .row{
     padding-left:20px;
     height: auto;
 }
 
-.box2{
-width: 50%;
-overflow: hidden;
+.box{
+flex: 1;
 }
 .circle{
-    margin-top: -88px;
+    margin-top: -80px;
     position: relative;
-    border-radius: 590px 0px 300px 600px;
+    border-radius: 50% 0 40% 50%;
     height:705px;
     width:625px;
-    float: right;
     overflow: hidden;
     padding-top: 100px;
     background-color: orange;
@@ -74,6 +73,7 @@ overflow: hidden;
     display: grid;
     grid-template-columns: auto auto auto;
     padding:10px;
+    margin-top: 80px;
 }
 .firstCutbox{
     display: flex;
@@ -81,12 +81,12 @@ overflow: hidden;
     font-size: 30px;
     align-items: center;
     justify-content: center;
-    height: 100px;
+    height: 90px;
 }
 .firstCutcircle{
     height: 64px;
     width: 64px;
-    border-radius: 32px;
+    border-radius: 50%;
     text-align: center;
     margin-right: 10px;
     flex-shrink: 0;
@@ -96,14 +96,13 @@ overflow: hidden;
     flex-grow: 1;
 }
 .secondCut{
-    height: 100%;
+    height: 150vh;
     display: flex;
 }
 .secondCutbox{
 display: flex;
 width: auto;
 height: 100%;
-padding: 15px;
 flex: 1;
 align-items: center;
 }
@@ -155,7 +154,7 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-border: 15px solid transparent;
+border: 10px solid transparent;
 }
 .secontCutItemRow{
     position: relative;
